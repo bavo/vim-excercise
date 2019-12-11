@@ -1,0 +1,200 @@
+Excercise 1:
+------------
+
+CamelCase the following word:
+pleasecamelcaseme
+
+Expected result:
+PleaseCamelCaseMe
+
+Excercise 2:
+------------
+Convert to a comma separated list:
+
+* item1
+* item2
+* item3
+* item4
+* item5
+
+Expected result:
+item1, item2, item3, item4, item5
+
+
+Excercise 3: 
+------------
+Convert yml to java property file:
+
+browser: Chrome
+browserVersion: 63
+os: window7
+osVersion: 2012
+lang: en
+
+Expected result:
+private String browser;
+private String browserVersion;
+private String os;
+private String osVersion;
+private String lang;
+
+Excercise 4:
+------------
+Merge the following arrays into 1:
+[1,2,3,4,5,6,7,8,9,0]
+[a,b,c,d,e,f,g,h,i,j]
+
+Expected result
+[1,a,2,b,3,c,4,d,5,e,6,f,7,g,8,h,9,i,0,j]
+
+Excercise 5:
+------------
+Switch the following variables:
+int barins, foovariable = 1; 
+
+Expected result:
+int foovariable, barins = 1; 
+
+Excercise 6:
+------------
+Change from functional to object oriented:
+
+organize(cupboard, 3, 2);
+prioritize(bureau, 8, 7);
+realize(bannister, 4, 4);
+moralize(railing, 3,9);
+
+Expected result:
+cupboard.organize(3, 2);
+bureau.prioritize(8, 7);
+bannister.realize(4, 4);
+railing.moralize(3,9);
+
+
+Excercise 7:
+------------
+Convert to a String array:
+There
+is
+no
+vertical
+limit
+for
+vim
+Ninjas
+
+Expected result:
+[ "There", "is", "no", "vertical", "limit", "for", "vim", "Ninjas" ]
+
+
+Excercise 8:
+------------
+Create the following christmas tree:
+vimchallenge
+
+Expected result:
+v
+vi
+vim
+vimc
+vimch
+vimcha
+vimchal
+vimchall
+vimchalle
+vimchallen
+vimchalleng
+vimchallenge
+
+Excercise 9:
+------------
+Chreate the following christmas tree:
+vimchallenge
+
+Expected result:
+e
+ge
+nge
+enge
+lenge
+llenge
+allenge
+hallenge
+challenge
+mchallenge
+imchallenge
+vimchallenge
+
+Excercise 10:
+-------------
+Transpose the following string:
+
+0123456789
+
+Expected result:
+0123456789
+1234567890
+2345678901
+3456789012
+4567890123
+5678901234
+6789012345
+7890123456
+8901234567
+9012345678
+
+
+Excercise 11:
+-------------
+Merge the following string list:
+Hint: m{char} marks a line, '{char} returns to that line from everywhere in the file
+
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+ten
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Expected result:
+one	1
+two	2
+three	3
+four	4
+five	5
+six	6
+seven	7
+eight	8
+nine	9
+ten	10
+
+
+Excercise 12:
+-------------
+Unwrap the following array:
+
+[ "There", "is", "no", "vertical", "limit", "for", "vim", "Ninjas" ]
+
+Expected result: 
+There
+is
+no
+vertical
+limit
+for
+vim
+Ninjas
